@@ -1,5 +1,5 @@
 import React from 'react';
-import HealthcareGraph from './HealthcareGraph';
+import HealthcareGraph from './components/HealthcareGraph';
 
 function App() {
   return (
