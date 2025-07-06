@@ -27,7 +27,11 @@ function App() {
         {/* Topbar */}
         <header className="h-20 bg-white border-b border-gray-200 flex items-center px-8 justify-between shadow-sm">
           <div className="flex items-center gap-4">
-            <div className="w-10 h-10 rounded-full bg-gray-200" />
+            <img
+              src="/Doctor.jpg"
+              alt="Doctor Avatar"
+              className="w-10 h-10 rounded-full object-cover border border-gray-300"
+            />
             <div>
               <div className="font-semibold text-gray-800">Emily Carter</div>
               <div className="text-xs text-gray-400">Leadgen.ai admin</div>
